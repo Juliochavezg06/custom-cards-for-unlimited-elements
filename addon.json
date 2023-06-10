@@ -1,0 +1,128 @@
+{
+    "addontype": "elementor",
+    "cattitle": "Custom Widget",
+    "name": "featured_card_elementor",
+    "alias": "featured_card",
+    "title": "Featured card slider",
+    "description": "",
+    "config": {
+        "options": {
+            "enable_items": "true",
+            "items_section_title": "",
+            "items_section_heading": "",
+            "items_title_field": "",
+            "path_assets": "",
+            "js_as_module": false,
+            "addon_icon": "eicon-slider-album",
+            "dynamic_addon": "false",
+            "dynamic_post_enable_customfields": "false",
+            "dynamic_post_enable_category": "false",
+            "description": "",
+            "link_resource": "",
+            "link_preview": "",
+            "show_small_icon": "true",
+            "preview_size_unite_selected_text": "Full Size",
+            "preview_size": "full",
+            "preview_custom_width": "",
+            "preview_bgcol": "#ffffff",
+            "special": "",
+            "special_data": ""
+        },
+        "params": [],
+        "params_items": [
+            {
+                "type": "uc_textfield",
+                "title": "Title",
+                "name": "title",
+                "description": "",
+                "enable_condition": false,
+                "condition_attribute": null,
+                "condition_operator": "equal",
+                "condition_value": [],
+                "condition_attribute2": null,
+                "condition_operator2": "equal",
+                "condition_value2": null,
+                "label_block": false,
+                "tabname": "",
+                "default_value": "Receptor de atenci\u00f3n",
+                "font_editable": false,
+                "placeholder": "",
+                "disable_dynamic": false
+            },
+            {
+                "type": "uc_textarea",
+                "title": "Description",
+                "name": "description",
+                "description": "",
+                "enable_condition": false,
+                "condition_attribute": null,
+                "condition_operator": "equal",
+                "condition_value": [],
+                "condition_attribute2": null,
+                "condition_operator2": "equal",
+                "condition_value2": null,
+                "label_block": false,
+                "tabname": "",
+                "default_value": "Formato Original y creativo con altos \u00edndices de atenci\u00f3n y memoria en el usuario, tus anuncios son m\u00e1s dif\u00edciles de ignorar y tienen una mayor visibilidad.",
+                "font_editable": false
+            },
+            {
+                "type": "uc_icon_library",
+                "title": "Icon",
+                "name": "icon",
+                "description": "",
+                "enable_condition": false,
+                "condition_attribute": null,
+                "condition_operator": "equal",
+                "condition_value": [],
+                "condition_attribute2": null,
+                "condition_operator2": "equal",
+                "condition_value2": null,
+                "label_block": false,
+                "tabname": "",
+                "default_value": "",
+                "enable_svg": true,
+                "put_svg_as": "image"
+            }
+        ],
+        "includes": {
+            "js": [
+                {
+                    "url": "slick\/slick.min.js",
+                    "condition": null,
+                    "params": null
+                }
+            ],
+            "jslib": [
+                "jquery"
+            ],
+            "css": [
+                {
+                    "url": "slick\/slick.min.css",
+                    "condition": null,
+                    "params": null
+                },
+                {
+                    "url": "slick\/slick-theme.css",
+                    "condition": null,
+                    "params": null
+                }
+            ]
+        },
+        "variables_item": [],
+        "variables_main": [],
+        "params_cats": [
+            {
+                "id": "cat_general_general",
+                "title": "General",
+                "tab": "content"
+            }
+        ]
+    },
+    "templates": [
+        "html",
+        "html_item",
+        "css",
+        "js"
+    ]
+}
